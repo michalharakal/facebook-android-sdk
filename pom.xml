@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.facebook</groupId>
+	<artifactId>parent-facebook-sdk</artifactId>
+	<version>3.0.1</version>
+	<name>Facebook SDK Android (Parent)</name>
+	<packaging>pom</packaging>
+	
+    <properties>
+      <androidPluginVersion>3.4.0</androidPluginVersion>
+
+      <!-- build settings -->
+      <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+      <sourceCompatibility>1.6</sourceCompatibility>
+	  <platform.version>4.1.1.4</platform.version>
+  	  <platform.api.level>15</platform.api.level>
+    </properties>
+
+	<modules>
+		<module>facebook</module>
+	</modules>
+</project>
